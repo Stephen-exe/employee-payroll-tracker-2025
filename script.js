@@ -13,6 +13,7 @@ const collectEmployees = function () {
     const lastName = prompt('Last name?');
     let salary = prompt('Salary?');
 
+    // Number() converts the string input to a number
     salary = Number(salary);
 
     if (isNaN(salary)) {
